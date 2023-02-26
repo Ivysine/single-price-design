@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: hsl(204, 41%, 85%);
+  line-height: 1.7rem;
+}
+
+section {
+  margin-top: 90px;
+  padding-bottom: 90px;
+}
+
+.cards {
+  /* border: 1px solid red; */
+  padding: 30px;
+  background-color: white;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.one {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.one h1 {
+  margin-top: 20px;
+  color: hsla(179, 62%, 43%, 0.95);
+}
+.one h2 {
+  color: hsl(71, 73%, 54%);
+  margin-top: 20px;
+  font-size: 20px;
+}
+.one p {
+  margin-top: 20px;
+}
+.two {
+  background-color: hsl(179, 44%, 45%) !important;
+  color: rgb(255, 255, 255);
+}
+.card-wrapper .two p {
+  margin-top: 20px;
+  color: whitesmoke;
+}
+span {
+  font-size: 35px;
+  color: white;
+}
+
+button {
+  margin-top: 30px;
+  width: 260px;
+  height: 55px;
+  background-color: hsl(71, 73%, 54%);
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  padding-right: 20px;
+  box-shadow: 2px 4px 6px hsla(71, 63%, 36%, 0.507);
+}
+
+.three {
+  background-color: hsla(179, 62%, 43%, 0.918);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-weight: 2;
+  color: whitesmoke;
+}
+.paragraphs {
+  margin-top: 20px;
+}
+h3 {
+  color: white;
+}
+@media screen and (min-width: 750px) {
+  .two-cards-wrapper {
+    display: flex;
+    width: 640px;
+    margin: 0 auto;
+  }
+  .one {
+    width: 640px;
+    margin: 0 auto;
+  }
+  .two {
+    border-bottom-left-radius: 5px;
+  }
+  .three {
+    border-bottom-left-radius: 0px;
+  }
+}
